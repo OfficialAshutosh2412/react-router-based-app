@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.active {
+.link {
   font-weight: bold;
-  color: red;
+  background: fixed;
+  font-size: 0.91rem;
+  padding: 10px;
+}
+.active {
+  background: rgb(245, 181, 45);
+  padding: 10px;
+  font-size: 0.91rem;
+  border-radius: 5px;
+  transition: 0.3s all ease-in-out;
 }
